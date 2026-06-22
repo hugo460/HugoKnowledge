@@ -1,0 +1,6 @@
+{
+  "globalFilter": "#task",
+  "removeGlobalFilter": false,
+  "setDoneDate": true,
+  "doneDateFormat": "YYYY-MM-DD"
+}

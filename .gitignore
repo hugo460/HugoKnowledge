@@ -1,0 +1,11 @@
+# Secrets / local state
+.obsidian/plugins/obsidian-local-rest-api/data.json
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+
+# OS noise
+.DS_Store
+
+# Keep plugin binaries installed for reproducibility, but never commit REST API key settings.
