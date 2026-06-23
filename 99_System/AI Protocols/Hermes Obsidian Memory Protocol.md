@@ -58,6 +58,9 @@ Utiliser Obsidian comme mémoire longue structurée, lisible par humain et explo
 Référence recherche : [[2026-06-22 - Bonnes pratiques mémoire Obsidian-Hermes 2026]].
 Dashboard qualité : [[Memory Quality Dashboard]].
 
+
+11. Configuration MCP recommandée sur cette machine : allowlist stricte des outils sûrs (`vault_list`, `vault_read`, `vault_append`, `vault_patch`, `vault_get_document_map`, `active_file_get_path`, `periodic_note_get_path`, `search_query`, `search_simple`, `tag_list`, `open_file`). Ne pas exposer par défaut `vault_delete`, `command_execute`, `vault_write` ou `vault_move`.
+
 ## Règles de liaison
 
 - Ajouter des liens Obsidian `[[...]]` quand une note dépend clairement d'une autre note existante.
