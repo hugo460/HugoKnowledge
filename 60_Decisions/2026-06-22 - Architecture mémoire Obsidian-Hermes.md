@@ -59,4 +59,8 @@ Utiliser Obsidian comme mémoire longue structurée de Hugo, connectée à Herme
 - Plugins téléchargés dans `.obsidian/plugins/`.
 - Configuration MCP Hermes ajoutée.
 - Skill Hermes `obsidian-memory-workflow` créé.
-- À finaliser côté UI Obsidian : ouvrir le vault, accepter/activer les community plugins si Obsidian le demande, puis relancer `/reload-mcp` ou redémarrer Hermes.
+- Obsidian a été ouvert et le plugin Local REST API with MCP répond sur `127.0.0.1:27124`.
+- `hermes mcp test obsidian` connecte et découvre 16 outils.
+- Les outils dangereux `vault_delete` et `command_execute` sont exclus de la configuration runtime.
+- Le toolset `mcp-obsidian` est activé dans `~/.hermes/config.yaml` avec `hermes-cli`.
+- Vérification finale réussie dans une session Hermes fraîche : l'agent a utilisé l'outil MCP Obsidian pour lister la racine du vault.
