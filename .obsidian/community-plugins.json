@@ -4,5 +4,6 @@
   "templater-obsidian",
   "obsidian-tasks-plugin",
   "obsidian-git",
-  "smart-connections"
+  "smart-connections",
+  "terminal"
 ]

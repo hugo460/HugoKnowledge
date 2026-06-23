@@ -1,7 +1,11 @@
 ---
 type: protocol
 status: active
-tags: [hermes, obsidian, memory, protocol]
+tags:
+  - hermes
+  - obsidian
+  - memory
+  - protocol
 created: 2026-06-22
 updated: 2026-06-22
 ai_use: true
@@ -36,6 +40,23 @@ Utiliser Obsidian comme mémoire longue structurée, lisible par humain et explo
 4. Ne jamais supprimer sans confirmation explicite.
 5. Ne jamais écrire de secrets/API keys/tokens.
 6. Préférer les patchs ciblés aux réécritures complètes.
+
+
+## Protocole 2026 pour résultats optimaux
+
+1. Toujours considérer Obsidian comme mémoire longue structurée quand la demande touche un projet, une décision, une recherche, une réunion, une procédure, une personne ou un contexte durable.
+2. Chercher et lire les notes pertinentes avant de demander à Hugo de répéter un contexte probablement déjà stocké.
+3. Ne sauvegarder que les informations durables, utiles, sourcées, non dupliquées et non sensibles.
+4. Classer la mémoire : semantic facts, episodic examples, procedural rules, summaries.
+5. Utiliser `status`, `confidence`, `source`, `last_verified`, `review_after`, `supersedes` et `superseded_by` quand une note peut vieillir ou entrer en conflit.
+6. En cas de conflit, préférer l'instruction utilisateur courante, puis les faits explicites récents, puis les notes actives high confidence ; marquer l'ancien contenu comme remplacé plutôt que garder deux vérités actives.
+7. Créer des liens utiles `[[...]]` et vérifier backlinks pour que le graphe aide la récupération.
+8. Préférer notes atomiques + index/résumés reliés aux sources plutôt qu'un gros fichier fourre-tout.
+9. Maintenir des dashboards qualité : notes orphelines, notes sans type, notes sans updated, low confidence, review_after dépassé.
+10. Après toute écriture MCP, relire le fichier ou la section pour vérifier.
+
+Référence recherche : [[2026-06-22 - Bonnes pratiques mémoire Obsidian-Hermes 2026]].
+Dashboard qualité : [[Memory Quality Dashboard]].
 
 ## Règles de liaison
 
