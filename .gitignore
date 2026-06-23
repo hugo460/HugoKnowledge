@@ -5,13 +5,10 @@
 .obsidian/cache/
 .trash/
 
+# Smart Connections generated embeddings/cache
+.smart-env/
+
 # OS noise
 .DS_Store
 
 # Keep plugin binaries installed for reproducibility, but never commit REST API key settings.
-
-
-
-
-# Ignore Smart Environment folder
-.smart-env
