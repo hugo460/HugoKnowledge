@@ -36,3 +36,13 @@ Utiliser Obsidian comme mémoire longue structurée, lisible par humain et explo
 4. Ne jamais supprimer sans confirmation explicite.
 5. Ne jamais écrire de secrets/API keys/tokens.
 6. Préférer les patchs ciblés aux réécritures complètes.
+
+## Règles de liaison
+
+- Ajouter des liens Obsidian `[[...]]` quand une note dépend clairement d'une autre note existante.
+- Lier les notes projet vers leurs décisions, recherches, meetings et procédures associées.
+- Lier les décisions vers le projet concerné et vers les protocoles/sources utilisés.
+- Ne pas créer de liens artificiels juste pour densifier le graphe : chaque lien doit aider à retrouver le contexte.
+- Quand une note pertinente existe déjà, préférer la mettre à jour et créer une liaison plutôt que créer un doublon.
+
+Notes liées : [[2026-06-22 - Architecture mémoire Obsidian-Hermes]], [[2026-06-22 - Review câblage Obsidian Hermes MCP]], [[Hermes Launcher Obsidian Autostart]].

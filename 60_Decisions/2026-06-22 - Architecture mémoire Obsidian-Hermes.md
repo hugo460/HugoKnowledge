@@ -17,6 +17,10 @@ ai_use: true
 
 Utiliser Obsidian comme mémoire longue structurée de Hugo, connectée à Hermes via le plugin Obsidian `Local REST API with MCP` et la configuration MCP HTTP native de Hermes.
 
+
+
+Protocole associé : [[Hermes Obsidian Memory Protocol]].
+
 ## Chemins
 
 - Vault : `/Users/hugo/Documents/Obsidian/Hugo-Knowledge`
